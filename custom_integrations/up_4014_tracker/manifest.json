@@ -1,0 +1,13 @@
+{
+  "domain": "up_4014_tracker",
+  "name": "UP Big Boy #4014 Tracker",
+  "codeowners": ["@jheizer"],
+  "config_flow": true,
+  "dependencies": ["http"],
+  "documentation": "",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "",
+  "loggers": [],
+  "requirements": ["requests", "xmltodict"],
+  "version": "0.1.0"
+}
