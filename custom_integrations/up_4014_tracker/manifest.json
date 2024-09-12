@@ -4,9 +4,9 @@
   "codeowners": ["@jheizer"],
   "config_flow": true,
   "dependencies": ["http"],
-  "documentation": "",
+  "documentation": "https://github.com/jheizer/up_4014_tracker/blob/main/README.md",
   "iot_class": "cloud_polling",
-  "issue_tracker": "",
+  "issue_tracker": "https://github.com/jheizer/up_4014_tracker/issues",
   "loggers": [],
   "requirements": ["requests", "xmltodict"],
   "version": "0.1.0"
