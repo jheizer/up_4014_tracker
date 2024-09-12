@@ -6,7 +6,7 @@ import aiohttp
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 
-from .const import DOMAIN, SCAN_INTERVAL, URL
+from .const import DOMAIN, DEFAULT_SCAN_INTERVAL, URL
 
 _LOGGER = logging.getLogger(__name__)
 

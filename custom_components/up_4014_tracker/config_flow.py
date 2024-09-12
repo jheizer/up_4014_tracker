@@ -14,7 +14,7 @@ from .const import DOMAIN, DEFAULT_SCAN_INTERVAL
 
 STEP_USER_DATA_SCHEMA = vol.Schema({
     vol.Required("refresh_interval", default=DEFAULT_SCAN_INTERVAL): vol.All(
-        vol.Coerce(int), vol.Range(min=1, max=60)
+        vol.Coerce(int), vol.Range(min=10, max=120)
     ),
 })
 
