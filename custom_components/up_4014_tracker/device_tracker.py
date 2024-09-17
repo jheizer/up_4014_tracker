@@ -72,9 +72,7 @@ class UP4014TrackerEntity(CoordinatorEntity, TrackerEntity):
             return {
                 "id": equipment.find('id').text,
                 "updated": equipment.find('updated').text,
-                "fuel": int(equipment.find('fuel').text),
-                "speed": int(equipment.find('speed').text),
-                "heading": int(equipment.find('heading').text)
+                "speed": int(equipment.find('speed').text)
             }
         except (AttributeError, ValueError):
             return {}
